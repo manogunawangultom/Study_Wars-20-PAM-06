@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">KeluhanMasyarakat</string>
+    <string name="covid">Coronavirus adalah suatu kelompok virus yang dapat menyebabkan penyakit pada hewan atau
+        manusia. Beberapa jenis coronavirus diketahui menyebabkan infeksi saluran nafas pada manusia mulai dari batuk
+        pilek hingga yang lebih serius seperti Middle East Respiratory Syndrome (MERS) dan Severe Acute Respiratory
+        Syndrome (SARS). Coronavirus jenis baru yang ditemukan menyebabkan penyakit COVID-19.</string>
+    <string name="gejala">Gejala-gejala COVID-19 yang paling umum adalah demam, rasa lelah, dan batuk kering. Beberapa
+        pasien mungkin mengalami rasa nyeri dan sakit, hidung tersumbat, pilek, sakit tenggorokan atau diare,
+        Gejala-gejala yang dialami biasanya bersifat ringan dan muncul secara bertahap. Beberapa orang yang terinfeksi
+        tidak menunjukkan gejala apa pun dan tetap merasa sehat. Sebagian besar (sekitar 80%) orang yang terinfeksi
+        berhasil pulih tanpa perlu perawatan khusus. Sekitar 1 dari 6 orang yang terjangkit COVID-19 menderita sakit
+        parah dan kesulitan bernapas. Orang-orang lanjut usia (lansia) dan orang-orang dengan kondisi medis yang sudah
+        ada sebelumnya seperti tekanan darah tinggi, gangguan jantung atau diabetes, punya kemungkinan lebih besar
+        mengalami sakit lebih serius. Mereka yang mengalami demam, batuk dan kesulitan bernapas sebaiknya mencari
+        pertolongan medis.</string>
+    <string name="rinaldy">
+        Nama : Rinaldy Karokaro\n
+        Nim  : 11418026</string>
+    <string name="lamsihar">
+        Nama : Lamsihar Sirait\n
+        Nim  : 114180
+    </string>
+    <string name="diana">
+        Nama : Diana Grace Marbun\n
+        Nim  : 11418027
+    </string>
+    <string name="mano">
+        Nama : Manogunamawan\n
+        Nim  : 114180
+    </string>
+</resources>

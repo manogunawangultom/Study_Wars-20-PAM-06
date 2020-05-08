@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/judul"
+        android:layout_below="@id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Terkini COVID-19"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@id/judul"
+        android:background="@color/colorPrimary"
+        />
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2"
+        android:text="Tanggal"
+        />
+    <TextView
+        android:id="@+id/terkonfirmasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terkonfirmasi :"
+        android:layout_below="@id/tanggal"
+        />
+    <TextView
+        android:id="@+id/negatif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Negatif :"
+        android:layout_below="@id/terkonfirmasi"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/negatif"
+        android:text="Sembuh : "
+        />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/line2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10px"
+        android:src="@drawable/covid" />
+    <Button
+        android:id="@+id/statistik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statistik Keluhan"
+        android:background="@drawable/button2"
+        android:layout_below="@id/img"
+        />
+
+    <TableLayout
+        android:id="@+id/tabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statistik"
+        >
+        <TableRow
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Apa itu Covid?"
+                />
+        </TableRow>
+        <TableRow
+            android:background="@color/colorPrimary"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/covid"
+                />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/tabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_below="@id/tabel1">
+        <TableRow
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bagaimana gejalanya?"
+                />
+        </TableRow>
+        <TableRow
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gejala"
+                />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/cekdiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tabel2"
+        android:layout_margin="5dp"
+        android:text="Mari Cek Diri Anda"
+        android:background="@drawable/button1"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
